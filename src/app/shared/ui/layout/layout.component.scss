@@ -1,6 +1,3 @@
-app-card{
-  
-}
 .container {
   margin-top: 50px;
   display: flex;
@@ -12,6 +9,11 @@ app-card{
   .container {
     margin-top: 50px;
     flex-direction: column;
+  }
+  app-card{
+    .card {
+      width: 10px;
+    }
   }
 }
 
